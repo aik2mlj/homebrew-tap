@@ -1,5 +1,5 @@
 class CanvasDownloader < Formula
-  desc "Download and organize all your Canvas course materials 📚"
+  desc "Download and organize all your course materials from Canvas LMS 📚"
   homepage "https://github.com/aik2mlj/canvas-downloader"
   license "GPL-3.0-or-later"
   version "0.4.0"
