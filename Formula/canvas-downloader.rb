@@ -7,10 +7,10 @@ class CanvasDownloader < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "#{homepage}/releases/download/v#{version}/canvas-downloader-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "9f48cb9aa36c7629a8dd56c8f1d9858e3394225213cb1c2eaf9dafdde9a2f14d"
+      sha256 "def4d1bdc51f89ac338337b6891afa19cf2b7d40b7a868c7ca7397080dc8206a"
     else
       url "#{homepage}/releases/download/v#{version}/canvas-downloader-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "4f7297fa6b13a0764fd0a0a4c644813aca19e36e3c7d5b9f3762799961593422"
+      sha256 "9f48cb9aa36c7629a8dd56c8f1d9858e3394225213cb1c2eaf9dafdde9a2f14d"
     end
   end
   on_linux do
