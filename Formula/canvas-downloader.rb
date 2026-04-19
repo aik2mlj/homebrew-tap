@@ -2,20 +2,20 @@ class CanvasDownloader < Formula
   desc "Download and organize all your course materials from Canvas LMS 📚"
   homepage "https://github.com/aik2mlj/canvas-downloader"
   license "GPL-3.0-or-later"
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     if Hardware::CPU.intel?
       url "#{homepage}/releases/download/v#{version}/canvas-downloader-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "def4d1bdc51f89ac338337b6891afa19cf2b7d40b7a868c7ca7397080dc8206a"
+      sha256 "b40d3b0586a5fdc9f51927f7107828392dfadcc5f622bcc05f0c5588815969db"
     else
       url "#{homepage}/releases/download/v#{version}/canvas-downloader-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "9f48cb9aa36c7629a8dd56c8f1d9858e3394225213cb1c2eaf9dafdde9a2f14d"
+      sha256 "1251315a2f05a227995d855bcb4505ec179b2540aa7268056879e14d0c89d400"
     end
   end
   on_linux do
     url "#{homepage}/releases/download/v#{version}/canvas-downloader-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "23c831b3883f294e2d77ca6d5d6d450c75371deb167118e8d6647b7f35bb7027"
+    sha256 "c32034a7852eb15784bc707438d73200a5a14155b0378a9761b25d9052629abd"
   end
 
   def install
